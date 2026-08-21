@@ -10,7 +10,7 @@ This part of the project is the most important . The robot's entire locomotion d
 
 ![IK of one leg](/Pictures/IK.png)
 
-According to the picture bellow, **$e$ is equal to the length of the shin and $d$ the length of thigh** . Our next step is to find the expression of $ \theta_{1} $ and $\theta_{2} $ for that we'll use few geometric formulas. 
+According to the picture bellow, **$e$ is equal to the length of the shin and $d$ the length of thigh** . Our next step is to find the expression of $\theta_{1}$ and $\theta_{2}$ for that we'll use few geometric formulas. 
 
  ### 1 - Let's find $\theta_{2} $
 According to Pythagoras's formula we found that
@@ -53,7 +53,7 @@ $$
 \theta_{1} = \alpha + \beta
 $$
 
-let's find $\alpha $ & $\beta$
+let's find  $\alpha$  &  $\beta$
 
 $$ 
 \tan(\alpha) = \frac{z}{x} \Leftrightarrow \alpha = \arctan(\frac{z}{x} )
