@@ -47,10 +47,14 @@ $$
 
 ### 2 - Let's find $\theta_{1} $
 $\theta_{1}$ is angle between the x-axis and the Thigh. According to our schematics,
+
+
 $$
 \theta_{1} = \alpha + \beta
 $$
+
 let's find $\alpha $ & $\beta$
+
 $$ 
 \tan(\alpha) = \frac{z}{x} \Leftrightarrow \alpha = \arctan(\frac{z}{x} )
 $$
