@@ -10,13 +10,13 @@ This part of the project is the most important . The robot's entire locomotion d
 
 ![IK of one leg](/Pictures/IK.png)
 
-According to the picture bellow, **$e$ is equal to the length of the shin and $d$ the length of thigh** . Our next step is to find the expression of $ \theta_{1} $ and $ \theta_{2} $ for that we'll use few geometric formulas. 
+According to the picture bellow, **$e$ is equal to the length of the shin and $d$ the length of thigh** . Our next step is to find the expression of $ \theta_{1} $ and $\theta_{2} $ for that we'll use few geometric formulas. 
 
  ### 1 - Let's find $\theta_{2} $
 According to Pythagoras's formula we found that
 
 $$ 
-\boxed {r^2 = x^2+z^2} \\ 
+\boxed {r^2 = x^2+z^2} 
 $$
 
 And with the cosine law we found that
@@ -46,9 +46,9 @@ $$
 $$
 
 ### 2 - Let's find $\theta_{1} $
-$ \theta_1 $ is angle between the x-axis and the Thigh. According to our schematics,
+$\theta_{1}$ is angle between the x-axis and the Thigh. According to our schematics,
 $$
-\theta_1 = \alpha + \beta
+\theta_{1} = \alpha + \beta
 $$
 let's find $\alpha $ & $\beta$
 $$ 
@@ -70,12 +70,12 @@ $$
 $$
 
 $$
-\theta_1 = \alpha + \beta \Leftrightarrow \boxed {\theta_1 =  \arccos\frac{r^2 + d^2 - e^2 }{2dr} + \arctan(\frac{z}{x})}
+\theta_{1} = \alpha + \beta \Leftrightarrow \boxed {\theta_{1} =  \arccos\frac{r^2 + d^2 - e^2 }{2dr} + \arctan(\frac{z}{x})}
 $$
 
 At this step, it should be noted that the `arctan` function does not allow us to determine the quadrant of the target point based on the signs of the coordinates $x$ and $z$ ; to do this, we will use the `atan2(x,z)` function instead. Typically, `atan2` is used as `atan2(z, x)`, but as you may have noticed, my coordinate system has the positive x-axis pointing to the left. That is why I use `atan2(x, z)` and then subtract π/2 to align with my servo motors origin positions. The final equations become something like that. 
 
 $$
-\boxed {\theta_1 =  \arccos\frac{r^2 + d^2 - e^2 }{2dr} + \arctan2(\frac{z}{x}) - 90^0}
+\boxed {\theta_{1} =  \arccos\frac{r^2 + d^2 - e^2 }{2dr} + \arctan2(\frac{z}{x}) - 90^0}
 $$
 
