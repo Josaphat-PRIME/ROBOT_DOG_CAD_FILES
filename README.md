@@ -10,9 +10,9 @@ This part of the project is the most important . The robot's entire locomotion d
 
 ![IK of one leg](/Pictures/IK.png)
 
-According to the picture bellow, **$e$ is equal to the length of the shin and $d$ the length of thigh** . Our next step is to find the expression of $ \theta_1 $ and $ \theta_2 $ for that we'll use few geometric formulas. 
+According to the picture bellow, **$e$ is equal to the length of the shin and $d$ the length of thigh** . Our next step is to find the expression of $ \theta_{1} $ and $ \theta_{2} $ for that we'll use few geometric formulas. 
 
- ### 1 - Let's find $\theta_2 $
+ ### 1 - Let's find $\theta_{2} $
 According to Pythagoras's formula we found that
 
 $$ 
@@ -22,7 +22,7 @@ $$
 And with the cosin law we found that
 
 $$ 
-\boxed {r^2 = e^2 + d^2 -2*e*d*\cos(\theta_2)} 
+\boxed {r^2 = e^2 + d^2 -2*e*d*\cos(\theta_{2})} 
 $$
 
 After equating these two equations, we obtain this.
