@@ -19,21 +19,21 @@ $$
 \boxed {r^2 = x^2+z^2} \\ 
 $$
 
-And with the cosin law we found that
+And with the cosine law we found that
 
 $$ 
-\boxed {r^2 = e^2 + d^2 -2*e*d*\cos(\theta_{2})} 
+\boxed {r^2 = e^2 + d^2 -2ed\cos(\theta_{2})} 
 $$
 
 After equating these two equations, we obtain this.
 
 $$ 
-x^2+z^2 = e^2 + d^2 -2*e*d*\cos(\theta_2) 
+x^2+z^2 = e^2 + d^2 -2ed\cos(\theta_2) 
 $$
 
-$$  2*e*d*\cos(\theta_2)  = (e^2 + d^2)-(x^2+z^2) $$
-$$  \cos(\theta_2)  = \frac {(e^2 + d^2)-(x^2+z^2)}{2*e*d} $$
+$$  2ed\cos(\theta_2)  = (e^2 + d^2)-(x^2+z^2) $$
+$$  \cos(\theta_2)  = \frac {(e^2 + d^2)-(x^2+z^2)}{2ed} $$
 and at the end we found that 
 
-$$ \boxed{\theta_2  = \cos^{-1}\frac {(e^2 + d^2)-(x^2+z^2)}{2*e*d}} 
+$$ \boxed{\theta_2  = \cos^{-1}\frac {(e^2 + d^2)-(x^2+z^2)}{2ed}} 
 $$
