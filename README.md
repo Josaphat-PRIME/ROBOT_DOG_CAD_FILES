@@ -16,7 +16,9 @@ According to the picture bellow, **$e$ is equal to the length of the shin and $d
 According to Pythagoras's formula we found that
 
 $$ 
+
 \boxed {r^2 = x^2+z^2} 
+
 $$
 
 And with the cosine law we found that
