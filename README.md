@@ -15,11 +15,7 @@ According to the picture bellow, **$e$ is equal to the length of the shin and $d
  ### 1 - Let's find $\theta_{2} $
 According to Pythagoras's formula we found that
 
-$$ 
-
-\boxed {r^2 = x^2+z^2} 
-
-$$
+$$\boxed {r^2 = x^2+z^2}$$
 
 And with the cosine law we found that
 
