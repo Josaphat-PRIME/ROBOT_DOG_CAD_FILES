@@ -5,7 +5,7 @@ When i was working on this project, i was just a robotics student passionate abo
 
 > "A robot may not harm a human being or, through inaction, allow that human being to come to harm" *ISAAC ASIMOV*.
 
-## INVERSE KINEMATICS
+## INVERSE KINEMATICS : PART ONE
 This part of the project is the most important . The robot's entire locomotion depends on it and the goal of this part is to find the relation between the robot end leg and motor rotation angle. 
 
 ![IK of one leg](/Pictures/IK.png)
@@ -80,4 +80,16 @@ At this step, it should be noted that the `arctan` function does not allow us to
 $$
 \boxed {\theta_{1} =  \arccos\frac{r^2 + d^2 - e^2 }{2dr} + \arctan2(\frac{z}{x}) - 90^0}
 $$
+
+## INVERSE KINEMATICS : PART TWO
+In the first part bellow our main task was to find the relation between the sesired position ($x$ , $y$) and the angle($\theta_1$,$\theta_2$ ) to give to the servo. But in practice it's more complicated than that; because the angles aren't sent directly to the servomotors . instead they follow the following diagram.
+
+![IK_Full Diagram](/Pictures/IK_chart.png) 
+
+so we need to add some other equation.
+### Four-bar linkage Mechanism : Freudenstein's equation
+Formulated by Ferdinand Freudenstein in 1954, it relates the input angle ($\phi$) and output the angle ($\theta_2$) of a four-bar mechanism to the lengths of its four links ($a,b,c,d$)
+
+
+![IK_Full Diagram](/Pictures/IK_Four-bar_linkage_Mechanism.png) 
 
