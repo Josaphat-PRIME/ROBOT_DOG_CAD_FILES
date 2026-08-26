@@ -93,3 +93,15 @@ Formulated by Ferdinand Freudenstein in 1954, it relates the input angle ($\phi$
 
 ![IK_Full Diagram](/Pictures/IK_Four-bar_linkage_Mechanism.png) 
 
+It gives an implicit relation between the position variables $\theta_2$ and $\phi$ . In order to obtain an explicit expression for $\theta_2$ and $\phi$ , Freudenstein's equation can be written in the form:, 
+
+$$\boxed{K_1\cos(\theta_2)-K_2\cos(\phi)+K_3=\cos(\theta_2-\phi)}$$
+
+where 
+
+$$
+\boxed{K_1 = \frac{d}{a} \ \ , \ \ K_2 = \frac{d}{c} \ \ ,\ \  K_3 = \frac {a^2-b^2+c^2-d^2}{2ac}}
+$$
+
+In the last part, we found expression of $\theta_2$ so our goal now is to find the expression of $\phi$ 
+
